@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 *::before,
 *::after{
     margin: 0;
@@ -23,11 +24,55 @@
     border-radius: 25px; 
 }
 
+.display {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
 .calculator form input{
     border: 0;
     outline: 0;
     width: 60px;
     height: 60px;
     background: transparent;
-    font size: 20px; 
+    font-size: 20px; 
  } 
+
+ input[type="button"]{
+    width: 40px;  
+    height: 40px;
+    margin: 5px;
+    font-size: 20px;
+    border : none;
+    border-radius: 5px;
+    background-color: rgb(187, 65, 85);
+    cursor: pointer;
+ }
+ 
+ input[type="button"]:hover {
+    background-color: rgb(220, 153, 153);
+ }
+
+ input[type="button".operator] {
+    background-color: rgb(230, 158, 158);
+ }
+
+ input[type="button"].operator:hover {
+    background-color: rgb(230, 158, 158);
+ }
+
+ input[type="button"].equals {
+    background-color: rgb(230, 158, 158);
+    color: white;
+ }
+
+ input[type="button"].equals:hover {
+    background-color: rgb(230, 158, 158);
+ }
+
